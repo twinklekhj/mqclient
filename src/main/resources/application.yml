@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mqclient
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+activemq:
+  queue:
+    chat: QUEUE_CHAT
+  topic:
+    chat: TOPIC_CHAT
